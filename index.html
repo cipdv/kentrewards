@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <title>Kent's Rewards</title>
+</head>
+<body style="background-color: aquamarine;">
+  <div class="ui container" style="margin: 25px">
+    <header class="ui header">
+      <h1 style="font-family: 'Lobster', cursive;">Kent's Rewards</h1>
+    </header>
+    <h3>Please select your behaviour for today:</h3>
+    <select name="behaviour" id="behaviour">
+      <option value="default">Select your behaviour</option>
+      <option value="Really good">Really good</option>
+      <option value="Good">Good</option>
+      <option value="Medium">Medium</option>
+      <option value="Not so good">Not so good</option>
+      <option value="Bad">Bad</option>
+      <option value="Greer">Greer</option>
+    </select>
+    <h2>Your reward is:</h2>
+    <h3 id="prize"></h3>
+</div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
